@@ -22,6 +22,7 @@ function Counter() {
 
       <Slider
         defaultValue={1}
+        value={newStep}
         // getAriaValueText={valuetext}
         valueLabelDisplay="auto"
         step={1}
